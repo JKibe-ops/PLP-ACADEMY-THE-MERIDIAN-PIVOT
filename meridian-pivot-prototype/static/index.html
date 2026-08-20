@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solstice Python Check-in</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div><span class="mark">S</span><span class="brand">SOLSTICE <small>EVENTS CO.</small></span></div>
+      <span class="healthy"><i></i> Python service online</span>
+    </header>
+    <section class="hero">
+      <div><p class="eyebrow">MERIDIAN PIVOT / PYTHON PROTOTYPE</p><h1>Badge check-in</h1><p>Queue the print. Confirm it later.</p></div>
+      <a href="/docs">API docs &rarr;</a>
+    </section>
+    <section class="metrics"><div><small>CHECKED IN</small><strong id="checked">0 / 3</strong></div><div><small>PRINT QUEUE</small><strong id="pending">0</strong></div><div><small>PROTOCOL</small><strong>ASYNC</strong></div></section>
+    <section class="grid">
+      <div class="panel kiosk"><p class="eyebrow">KIOSK 01</p><h2>Simulate QR scan</h2><select id="attendee"></select><button id="scan">Publish print request</button><div id="notice" class="notice">Ready to scan an attendee.</div></div>
+      <div class="panel"><div class="panel-title"><div><p class="eyebrow">LIVE ROSTER</p><h2>Attendee status</h2></div><button id="reset" class="quiet">Reset</button></div><div id="roster"></div></div>
+    </section>
+    <section class="panel stream"><div class="panel-title"><div><p class="eyebrow">EVENT STREAM</p><h2>Queue activity</h2></div><span class="healthy"><i></i> Live</span></div><div id="events"></div></section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>
